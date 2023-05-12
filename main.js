@@ -27,3 +27,32 @@ console.log(valorUno + valorDos)
 let miVariable = 'texto';
 miVariable = 7;
 
+// Arrays - Arreglos
+// Puede guardar múltiples datos
+let arreglo = [1, 10, 5, {propiedad: 'valor'}, [1, 2, 3]];
+
+// Objeto - Propiedad: valor
+let persona = {
+    nombre: 'Juan',
+    edad: 30,
+    soltero: true,
+    correo: 'ejemplo@gmail.com'
+};
+
+// Function
+function saludar() {
+    for (let i = 0; i < 5; i++) {
+        console.log('Hola Mundo');
+    }
+}
+
+saludar();
+
+// Null
+// Normalmente la usamos si queremos especificar que un valor sea nulo.
+let miVar = null;
+
+// Undefined
+// Se usa para indicarnos que un valor no está definido.
+let miVar2 = undefined;
+
