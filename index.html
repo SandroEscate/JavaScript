@@ -6,14 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Javascript</title>
+    <!--Forma #2 de usar script-->
+    <script defer>
+        alert('Se ejecuta desde el head');
+    </script>
+    <!--Forma #3 de usar script-->
+    <script defer src="./main.js"></script>
 </head>
 <body>
     <h1>Hola Mundo</h1>
+    <!--Forma #1 de usar script-->
     <script>
         // Notas:
         // JS es sensible a mayusculas y minisculas.
         // Se debe respetar la sintaxis de tipo camel case.
         // Punto y como al final de cada sentencia.
+
+        // Este comentario es de tipo linea.
+        /*
+        Este comentario es de tipo bloque
+        */
         document.write('<h2>Hola Mundo</h2>');
         alert('Hola soy una alerta');
         console.log("Hola desde la consola");
